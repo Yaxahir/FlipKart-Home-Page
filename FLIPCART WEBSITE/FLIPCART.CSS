@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: 0.5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 10px;
+    background: #F1F2F4;
+}
+.nav{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 30px;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0.1px;
+}
+.nav-tag{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.nav-tag div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-tag h6{
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+.nav-tag i{
+    font-size: 1.5rem;
+}
+
+.nav-tag div{
+    display: flex;
+    padding: 0 20px;
+}
+.nav-input{
+    /* border: 1px solid black; */
+    width: 40%;
+}
+.input1{
+   width: 100%;
+   border-radius: 10px;
+   /* border: 1px solid red; */
+   background: #F0F5FF;
+}
+.search{
+    width: 90%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.input1 i{
+    font-size: 1.5rem;
+    color: rgba(128, 128, 128, 0.926);
+}
+.flipcart2{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.flipcart2 div{
+    cursor: pointer;
+}
+.gap{
+    margin: 10px 20px;
+}
+.flipcart2 h6{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.banner img{
+    width: 100%;
+}
+.banner{
+    margin: 20px 0;
+}
+
+.flipcart3{
+    width: 100%;
+    height: 50vh;
+    margin: 10px 0;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.flipcart3 h5{
+    margin: 15px 10px;
+    font-size: 2rem;
+}
+.flip3{
+    width: 230px;
+    height: 35vh;
+    border: 1px solid rgba(128, 128, 128, 0.319);
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.flipcart31{
+    display: grid;
+    gap: 20px;
+    margin: 10px 10px;
+    grid-template-columns: repeat(10,1fr);
+    overflow-x: scroll;
+}
+.flipcart31::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+.flip3 img{
+    width: 80%;
+    height: 60%;
+    padding: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.flip3 img:hover{
+    transform: scale(1.1);
+}
+.flip3 p{
+    font-size: 1.5rem;
+}
+.flip3 h6{
+    font-size: 1.5rem;
+}
+
+.flipcart4{
+    width: 100%;
+    height: 85vh;
+    /* border: 1px solid rgba(0, 0, 0, 0.22); */
+    display: grid;
+    gap: 20px;
+    margin: 20px 0;
+    grid-template-columns: 30% 30% 35%;
+}
+
+.flip41{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(128, 128, 128, 0.309);
+    padding: 10px 10px;
+}
+.flip41 h4{
+    margin: 20px 10px;
+    font-size: 1.5rem;
+}
+.flip41 img{
+    width: 100%;
+    height: 85vh;
+    cursor: pointer;
+}
+.div1,.div2{
+    display: flex;
+    gap: 10px;
+}
+.div11,.div12{
+    border: 2px solid rgba(128, 128, 128, 0.18);
+    height: 35vh;
+    width: 50%;
+    margin: 5px 5px;
+}
+.flip411{
+    margin-top: 30px;
+}
+.div1 img,.div2 img{
+    width: 100%;
+    height: 70%;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+.div1 img:hover,.div2 img:hover{
+    transform: scale(1.1);
+}
+.div1 p,.div2 p{
+    font-size: 1.5rem;
+    padding: 4px 10px;
+}
+.div1 h3,.div2 h3{
+    font-size: 1.8rem;
+    color: blue;
+    padding: 0px 10px;
+}
+.flipcart5{
+    margin: 80px 0px;
+}
+.flipcart5 p,.flipcart5 h2{
+    margin: 10px 0;
+}
+
+.last{
+    width: 100%;
+    height: 60vh;
+    background-color: #212121;
+    margin-top: 20px;
+    /* border: 2px solid blue; */
+}
+.last1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.last1 div{
+    width: 90%;
+    height: 35vh;
+
+}
+.last11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.last11 p{
+    color: grey;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.last11 h5,.last11 h6{
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    cursor: pointer;
+}
+.last11 h5:hover{
+    text-decoration: underline;
+}
+.lastpara{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lastpara1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lastpara p{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.lastpara i{
+    color: gold;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
